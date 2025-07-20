@@ -2,7 +2,8 @@
 import os
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel
 from agents.run import RunConfig
-from agents.tools import tool 
+from agents import tool
+ 
 import requests
 from difflib import get_close_matches
 
